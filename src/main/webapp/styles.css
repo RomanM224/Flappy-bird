@@ -1,0 +1,74 @@
+@charset "ISO-8859-1";
+
+.startBg {
+	width: 285px;
+	height: 500px;
+	margin-top: 50px;
+	margin-left: 100px;
+	background-image: url("img/flappy_bird_bg.png");
+	background-repeat: no-repeat;
+	border:1px solid;
+}
+
+.button {
+	background-color: #FFD700;
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 200px;
+	height: 70px;
+	float: left;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#inputLabel {
+	float: left;
+	margin-top: 50px;
+	margin-left: 50px;
+	font-size: 30px;
+}
+
+#inputName {
+	padding: 12px 20px;
+	lenght: 40px;
+	margin-top: 20px;
+	margin-left: 30px;
+	font-size: 16px;
+}
+
+.linkButton {
+	margin-top: 100px;
+	margin-left: 50px;
+	display: block;
+	width: 150px;
+	height: 25px;
+	background: #fce901;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	color: #000000;
+	font-weight: bold;
+}
+
+#name {
+	color: red;
+	display: none;
+}
+
+#score {
+	margin-left: 40px;
+	margin-top: 50px;
+	display: block;
+	font-size: 40px;
+}
+
+.finishButton {
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 170px;
+	height: 50px;
+	border-radius: 5px;
+	color: #000000;
+	font-weight: bold;
+		background: #fce901;
+}
